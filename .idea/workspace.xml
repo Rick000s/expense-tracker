@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c3c7bb4-9d0c-4ebc-bddd-7b7757ce07e4" name="Changes" comment="" />
+    <list default="true" id="0c3c7bb4-9d0c-4ebc-bddd-7b7757ce07e4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/upce/fei/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/upce/fei/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,7 +27,8 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/rik24/Documents/GitHub/expense-tracker",
