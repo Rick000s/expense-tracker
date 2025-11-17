@@ -48,6 +48,6 @@ public class Expense {
 
     @Override
     public String toString() {
-        return "Date: " + date + " | Category: " + category + " | Note: " + note + " | Amount: " + amount + "Kc";
+        return "Date: " + date + " | Category: " + category + " | Note: " + note + " | Amount: " + amount + "Kč";
     }
 }
