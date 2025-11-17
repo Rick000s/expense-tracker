@@ -1,6 +1,5 @@
 package cz.upce.fei;
 
-import java.sql.SQLOutput;
 import java.util.ArrayList;
 
 public class ExpenseManager {
@@ -52,4 +51,3 @@ public class ExpenseManager {
         System.out.printf("Max Expenses: %.2f Kč (%s)%n", min.getAmount(), min);
     }
 }
-
