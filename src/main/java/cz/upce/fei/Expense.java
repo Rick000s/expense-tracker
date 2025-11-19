@@ -7,7 +7,7 @@ public class Expense {
     private double amount; // сума витрати
 
     public Expense(String date, String category, String note, double amount) {
-        System.out.println("Expense object created");
+//        System.out.println("Expense object created");
         this.date = date;
         this.category = category;
         this.note = note;

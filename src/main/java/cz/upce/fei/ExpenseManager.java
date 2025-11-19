@@ -50,4 +50,25 @@ public class ExpenseManager {
         }
         System.out.printf("Max Expenses: %.2f Kč (%s)%n", min.getAmount(), min);
     }
+
+    public void getExpensesInRange(double start, double end) {
+        boolean found = false;
+
+        if (start > end) {
+            double tmp = start;
+            start = end;
+            end = tmp;
+        }
+
+        for (Expense e : expenses) {
+            if (e.getAmount() >= start && e.getAmount() <= end) {
+                System.out.println(e); // vypíše jen samotný výdaj
+                found = true;
+            }
+        }
+
+        if (!found) {
+            System.out.println("No expenses found in this range.");
+        }
+    }
 }
